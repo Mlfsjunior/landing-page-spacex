@@ -1,0 +1,404 @@
+html {
+    font-size: 62, 5%;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+}
+
+
+
+.container {
+
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(./starlink-spacex.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.headerlogo {
+    margin-right: 20px;
+    margin-bottom: 7px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    
+    
+}
+
+
+
+p {
+
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 2.9em;
+    max-width: 350px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+}
+
+#menu {
+
+    padding-top: 2em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin-right: 5em;
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#sigin-login {
+    display: flex;
+    gap: 5rem;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 9rem;
+}
+
+button:hover{
+    
+    color: white;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    align-items: flex-end;
+    gap: 50em;
+    flex-direction: row-reverse;
+    color: white;
+    height: 75vh;
+}
+
+
+#page2 {
+
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(./i365233.jpeg);
+    background-position: 60%;
+    gap: 23em;
+    font-size: 0.8rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.content-page2 {
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50em;
+}
+
+
+
+#page3 {
+
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(./omicrono_538707648_165971833_1706x960.jpg);
+    background-position: 50%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.content-page3 {
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 45em;
+    height: 70vh;
+    width: 100%;
+
+}
+
+
+footer {
+    gap: 5em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+#pfooter {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(137, 131, 131);
+}
+
+#ulfooter {
+    margin-right: 0;
+    font-size: small;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 770px) {
+
+    .container {
+
+        background-size: cover;
+        background-position: 70%;
+        max-width: 100%;
+        height: 100vh;
+
+    }
+
+    img {
+
+        width: 180px;
+        margin-left: 40px;
+
+    }
+
+
+    #menu {
+
+        flex-direction: column;
+        margin: 0;
+
+
+    }
+
+    #sigin-login {
+
+        gap: 0em;
+        justify-content: center;
+    }
+
+    header {
+
+        background: none;
+        position: static;
+        text-align: center;
+    }
+
+
+    ul {
+
+        padding-top: 5em;
+        flex-direction: column;
+        margin: auto;
+        gap: 4em;
+
+    }
+
+
+    section {
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        height: 30em;
+        align-items: center;
+        font-size: 48%;
+        gap: 2em;
+    }
+
+    #sigin-login {
+
+        gap: 2em;
+        padding-top: 50px;
+        max-width: 80%;
+
+    }
+
+
+    .content-page2 {
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        font-size: 0.5em;
+        gap: 4em;
+
+    }
+
+    .content-page3 {
+        align-items: center;
+        flex-direction: column-reverse;
+        font-size: 0.9em;
+        gap: 4em;
+
+    }
+
+    footer {
+
+        flex-direction: column;
+        gap: 3em;
+        height: 300px;
+
+    }
+
+    #pfooter {
+        margin: 20px;
+    }
+
+    #ulfooter {
+        gap: 0.5em;
+        align-items: center;
+        margin: 0;
+
+    }
+
+}
+
+
+@media screen and (min-width: 771px) and (max-width: 1598px) {
+
+    .container {
+
+        background-position: center top 0px;
+        height: 83vh;
+
+    }
+
+    img {
+
+        width: 150px;
+    }
+
+
+    #menu {
+
+        display: flex;
+    }
+
+    ul {
+
+        margin-right: 2em;
+        gap: 2rem;
+
+    }
+
+    #sigin-login {
+
+        gap: 1rem;
+    }
+
+
+    section {
+
+        gap: 10em;
+
+    }
+
+
+    .content-page2 {
+
+        gap: 10em;
+    }
+
+
+    .content-page3 {
+
+        gap: 10em;
+
+    }
+
+
+    footer {
+
+        gap: 0em;
+
+    }
+
+
+    #ulfooter {
+        gap: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1030px) {
+
+
+
+    #page2 {
+
+        background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(./i365233.jpeg);
+        background-position: 60%;
+        gap: 23em;
+        font-size: 0.8rem;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .content-page2 {
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: row-reverse;
+
+
+        gap: 10em;
+
+
+
+    }
+
+
+}
